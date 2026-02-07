@@ -1,0 +1,28 @@
+## Scripts used in this project
+
+ssh ubuntu@172.31.53.189
+ssh -i **key file address** ubuntu@172.31.53.189
+
+---
+
+#!/bin/bash
+sudo apt update 
+sudo su -
+apt install nginx
+nginx --version
+systemctl start nginx
+systemctl enable nginx
+
+---
+
+- **install git** - for the installation of git into the instance
+- **git --v** - to check the version of git installed
+- **apt install nodejs** - for the installation of nodejs into the instance
+- **apt install npm** - for the installation of the packet manager
+- **git clone** - for cloning the repository of the website to be hosted using the link of the repository from github
+- **ls** - to check all the available files and folders
+- **touch .env** - to make file using the .env extension for the environment set up
+- **ls -a** - to check all the hidden files 
+- **cat .env** - to check what is inside any file
+
+---
